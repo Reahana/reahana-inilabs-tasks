@@ -16,7 +16,7 @@
 
     <form class="d-flex px-2" role="search">
         @csrf
-        <input class="form-control form-control-lg me-2 bg-light" type="search" placeholder="Add tasks" aria-label="Search">
+        <input class="form-control form-control-lg me-2 bg-light" type="search" placeholder="Add tasks" name="task">
         <button class="btn btn-primary" type="submit">Add</button>
 
     </form>
