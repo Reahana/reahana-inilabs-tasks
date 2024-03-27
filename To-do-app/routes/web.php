@@ -30,6 +30,8 @@ function getRoleName($routeName)
 |
 */
 Route::get('/', [TodoController::class, 'index']);
+Route::post('/new', [TodoController::class, 'create'])->name('task.new');
+
 //Route::get('/', [HomeController::class, 'index']);
 
 Route::get('/post/add', [PostController::class, 'index'])->name('post.add')->middleware('roles');

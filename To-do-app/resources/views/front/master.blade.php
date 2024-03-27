@@ -14,12 +14,15 @@
 <section class="container-fluid bg-white py-5">
     <h1 class="text-primary pb-2 px-1 text-center ">My To Do List <span class="text-dark"><i class="fa-solid fa-list-check"></i></span> </h1>
 
-    <form class="d-flex px-2" role="search">
+    <form action="{{route('task.new')}}" class="d-flex px-2" role="search">
         @csrf
         <input class="form-control form-control-lg me-2 bg-light" type="search" placeholder="Add tasks" name="task">
         <button class="btn btn-primary" type="submit">Add</button>
 
     </form>
+    @foreach($tasks as $task)
+        <p>{{$task->task}}</p>
+        @endforeach
 </section>
 
 
