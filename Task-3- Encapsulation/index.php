@@ -1,7 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Prodiv
- * Date: 3/28/2024
- * Time: 9:07 PM
- */
+
+require_once './vendor/autoload.php';
+
+use App\classes\Employee;
+
+$employee = new Employee('Mina','Web',20000);
+echo "Name: " . $employee->getName() . "<br> Dept: " . $employee->getDept() . "<br> Salary: $ " . $employee->getSalary() . "\n";
+
+
+
