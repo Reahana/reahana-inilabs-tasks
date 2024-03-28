@@ -1,0 +1,12 @@
+{
+  "name": "task3/task3",
+  "type": "project",
+  "description": " Task 3: Encapsulation",
+  "keywords": [],
+  "license": "",
+  "require": {} ,
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {"App\\": "app/"}
+  }
+}
