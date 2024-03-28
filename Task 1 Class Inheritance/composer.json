@@ -1,0 +1,12 @@
+{
+    "name": "task1/task1",
+    "type": "project",
+    "description": " Task 1: Class Inheritance",
+    "keywords": [],
+    "license": "",
+    "require": {} ,
+    "require-dev": {},
+    "autoload": {
+      "psr-4": {"App\\": "app/"}
+    }
+  }
