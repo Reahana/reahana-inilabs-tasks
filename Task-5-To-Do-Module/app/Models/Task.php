@@ -18,13 +18,6 @@ class Task extends Model
 
         return self::$task;
     }
-    public static function updateTask($request, $id)
-    {
-        self::$task                 = Task::find($id);
-        self::$task->task           = $request->task;
-        self::$task->save();
-        return self::$task;
-    }
 
     public static function deleteTask($id)
     {
