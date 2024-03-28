@@ -1,5 +1,8 @@
+body{
+    background-color: black;
+}
 section{
-    margin-top: 40px;
+    margin-top: 80px;
     max-width: 500px;
-
+    box-shadow: 15px 15px  #d0d0d0;
 }

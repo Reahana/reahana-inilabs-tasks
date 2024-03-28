@@ -9,12 +9,18 @@ class TodoController extends Controller
 {
     public  function index()
     {
-        return view('front.master');
+        return view('front.index',['tasks' => Task::orderBy('id')->get()]);
     }
     public function  create(Request $request)
     {
         Task::newTask($request);
-        return view('front.master',['tasks' => Task::orderBy('id')->get()]);
+        return redirect()->back();
+    }
+    public function delete( $id)
+    {
+        Task::deleteTask($id);
+
+        return redirect()->back();
     }
 
 }

@@ -503,16 +503,16 @@
                     <div class="collapse" id="sidebarEcommerce">
                         <ul class="side-nav-second-level">
                             <li>
-                                <a href="{{route('role.add')}}">Add Role</a>
+                                <a href="#">Add Role</a>
                             </li>
                             <li>
-                                <a href="{{route('role.manage')}}">Manage Role</a>
+                                <a href="#">Manage Role</a>
                             </li>
                             <li>
-                                <a href="{{route('user.add')}}">Add User</a>
+                                <a href="#">Add User</a>
                             </li>
                             <li>
-                                <a href="{{route('user.manage')}}">Manage User</a>
+                                <a href="#">Manage User</a>
                             </li>
                         </ul>
                     </div>
@@ -1157,7 +1157,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <script>document.write(new Date().getFullYear())</script> © Habibur Rahman
+                        ©    <script>document.write(new Date().getFullYear())</script>
                     </div>
                 </div>
             </div>
