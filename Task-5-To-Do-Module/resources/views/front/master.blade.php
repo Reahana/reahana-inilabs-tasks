@@ -1,7 +1,15 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Prodiv
- * Date: 3/28/2024
- * Time: 8:44 PM
- */
+<!doctype html>
+<html lang="en">
+<head>
+    @include('front.includes.meta')
+    @include('front.includes.style')
+    <title>To-Do List</title>
+</head>
+<body>
+
+@yield('body')
+
+
+@include('front.includes.script')
+</body>
+</html>
