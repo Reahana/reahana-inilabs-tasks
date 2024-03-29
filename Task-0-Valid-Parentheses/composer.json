@@ -1,0 +1,12 @@
+{
+    "name": "task0/task0",
+    "type": "project",
+    "description": "Task 0: Valid Parentheses",
+    "keywords": [],
+    "license": "",
+    "require": {} ,
+    "require-dev": {},
+    "autoload": {
+      "psr-4": {"App\\": "app/"}
+    }
+  }
